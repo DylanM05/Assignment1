@@ -1,0 +1,152 @@
+/* Style for the logo */
+.corner-logo {
+  width: 75px; /* Set the desired width */
+  height: 75px; /* Set the desired height */
+  margin-left: 10px;
+}
+.selfphoto{
+  width: 200px;
+  height: 220px;
+  float: right;
+  margin: left 20px;
+}
+.project1{
+  width: 500px;
+  height: 400px;
+}
+.project2{
+  width: 400px;
+  height: 200px;
+}
+/* Style for the service containers */
+.service-container {
+  display: flex;
+  flex-direction: row; /* Arrange the services horizontally */
+  align-items: center; /* Vertically align the contents */
+  margin-bottom: 20px; /* Add spacing between service containers */
+}
+
+/* Style for service1 and service2 elements within each container */
+.service1, .service2 {
+  flex: 1; /* Share the container's width equally */
+  margin-right: 20px; /* Add spacing between service1 and service2 */
+}
+/* Reset some default margins and paddings */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex; /* Make the body a flex container */
+  height: 100vh; /* Set the body height to 100% of the viewport height */
+}
+
+/* Style for the header */
+header {
+  background-color: #333; /* Adjust the background color as needed */
+  color: white; /* Text color for the header */
+  padding: 10px; /* Add padding to the header for spacing */
+  width: 200px; /* Set a fixed width for the left navigation area */
+  height: 100%; /* Make the header height 100% of the viewport height */
+  position: fixed; /* Position the header as fixed */
+}
+
+/* Style for the navigation bar */
+nav {
+  display: flex;
+  flex-direction: column; /* Stack navigation items vertically */
+  height: 100%; /* Make the nav height 100% of the viewport height */
+  padding-top: 20px; /* Add top padding to center the links vertically */
+}
+
+/* Style for the navigation links */
+nav a {
+  text-decoration: none;
+  color: white; /* Link color */
+  margin: 10px 0; /* Add vertical spacing between navigation links */
+}
+
+/* Style for the main content */
+.bodytext {
+  padding: 20px; /* Add padding to the content for spacing */
+  flex-grow: 1; /* Allow the content to grow and take available space */
+  margin-left: 200px; /* Adjust margin to create space for the navigation bar */
+  height: 100%; /* Make the content height 100% of the viewport height */
+  overflow: auto; /* Add scrolling if content overflows */
+}
+
+/* Style for the h1 */
+h1 {
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+/* Style for the h3 */
+h3 {
+  font-size: 18px; /* Adjust the font size as needed */
+}
+* {
+  box-sizing: border-box;
+}
+/* Style for the contact information panel */
+.contact-info {
+  background-color: #f4f4f4; /* Background color for the contact info panel */
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners for the panel */
+  margin-bottom: 20px; /* Add spacing below the panel */
+}
+
+.contact-info p {
+  margin: 0; /* Remove default margins for paragraphs */
+}
+
+/* Style for the contact form */
+.contact-form {
+  background-color: #f4f4f4; /* Background color for the form */
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners for the form */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align contents horizontally */
+  text-align: center; /* Center align text within inputs */
+  max-width: 400px; /* Set a maximum width for the form */
+  margin: 0 auto; /* Center the form horizontally by using auto margins */
+}
+
+
+/* Style for form input labels */
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px; /* Add spacing below labels */
+  width: 100%; /* Set labels to full width */
+  text-align: left; /* Left-align label text */
+}
+
+/* Style for form input fields */
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%; /* Set inputs to full width */
+  max-width: 300px; /* Set a maximum width for the text inputs */
+  padding: 10px;
+  margin-bottom: 15px; /* Add spacing between input fields */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.contact-form textarea {
+  height: 100px; /* Adjust the height as needed */
+}
+
+/* Style for the submit button */
+.contact-form button[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #555; /* Change the background color on hover */
+}
